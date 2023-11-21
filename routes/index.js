@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { 
     title: 'Express on Docker' ,
-    body: "Express is very cool isn't it?"});
+    body: "Express on docker very cool isn't it?"});
 });
 
 module.exports = router;
